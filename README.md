@@ -3,6 +3,7 @@ this is a simple tool just to install youtube downloader **for TERMUX**<br>
 *downloads with quality: [360p]* <br>
 **INSTILLATION**<br>
 $`git clone https://github.com/arNparad0x/youtubeDL`<br>
+$`cd youtubeDL`<br>
 $`chmod +x ytdl.sh`<br>
 $`sh ytdl.sh`<br>
 <br>
