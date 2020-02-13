@@ -5,7 +5,7 @@ this is a simple tool just to install youtube downloader **for TERMUX**<br>
 $`git clone https://github.com/arNparad0x/youtubeDL`<br>
 $`cd youtubeDL`<br>
 $`chmod +x ytdl.sh`<br>
-$`sh ytdl.sh`<br>
+$`sh ytdl.sh`<br><br>
 [ALL YOU HAVE TO DO IS TO SHARE VIDEO TO TERMUX]<br>
 <br>
 I am **not** a professional<br>
