@@ -6,6 +6,7 @@ $`git clone https://github.com/arNparad0x/youtubeDL`<br>
 $`cd youtubeDL`<br>
 $`chmod +x ytdl.sh`<br>
 $`sh ytdl.sh`<br>
+[ALL YOU HAVE TO DO IS TO SHARE VIDEO TO TERMUX]<br>
 <br>
 I am **not** a professional<br>
 **install @ your own risk**
