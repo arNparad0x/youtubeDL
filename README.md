@@ -11,5 +11,6 @@ this is a simple tool just to install youtube downloader **for TERMUX**<br>
 <br>
 [ALL YOU HAVE TO DO IS TO SHARE VIDEO TO TERMUX]<br>
 <br>
-I am **not** a professional<br>
-**install @ your own risk**
+**important** <br>
+I am not a professional<br>
+install @ your own risk
