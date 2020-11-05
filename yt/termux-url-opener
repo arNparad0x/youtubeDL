@@ -7,15 +7,16 @@ read med
 if [ $med -eq 1 ]
 then
   #selection: vdo#
-  printf "\n\\033[41;33m░▒▓▇ select quality [resolutuion] ▇▓▒░\\033[30;47m"
-  printf "\\033[38;5;208m"
+  printf "\n\\033[41;33m▇▓▒░ select quality [resolutuion] ░▒▓▇\\033[40;37m\n"
+  printf "\n\\033[38;5;208m"
   youtube-dl --list-formats $1 |grep mp4 |grep av > vdata
   cat vdata | cut -d ',' -f 1,5 | cut -d "x" -f 2 |grep ',' > vmind
-  cat -n vdata
+  cat -n vmind
   printf "\\033[37;5;126m::select number::"
   printf "\n\\033[33m-> "
   read qn
-  qc=$(cat vdata | cut -d ' ' -f 1 | cut -d$'\n' -f $qn)
+  qc=$(cat vdata | cut -d ' ' -f 1 | cut -d "
+" -f "$qn" )
   youtube-dl -f $qc $1
   echo '🎬🎥📹'
 else
