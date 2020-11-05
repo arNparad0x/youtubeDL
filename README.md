@@ -1,6 +1,6 @@
 # youtubeDL
 this is a simple tool just to install youtube downloader **for TERMUX**<br>
-*downloads with quality: [360p]* <br>
+*downloads videos and video as audio in sharable formats [mp3 & mp4]* <br>
 **INSTILLATION**<br>
 * `termux-setup-storage`
 » [yes]<br>
