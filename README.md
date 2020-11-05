@@ -9,7 +9,7 @@ this is a simple tool just to install youtube downloader **for TERMUX**<br>
 * `chmod +x ytdl.sh`
 * `sh ytdl.sh`
 <br>
-[ALL YOU HAVE TO DO IS TO SHARE VIDEO TO TERMUX]<br>
+[ALL YOU HAVE TO DO IS TO SHARE THE VIDEO LINK TO TERMUX]<br>
 <br>
 **important** <br>
 I am not a professional<br>
