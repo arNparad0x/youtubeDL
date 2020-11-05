@@ -1,4 +1,4 @@
-apt install python -y ffmpeg -y python2 -y
+apt install python -y ffmpeg -y python2 -y openssl -y
 python3 -m pip install --upgrade pip
 pip install youtube-dl 
 mkdir /data/data/com.termux/files/home/storage/shared/Youtube 
