@@ -1,1 +1,33 @@
-youtube-dl $1
+#media selection#
+printf "\\033[31m(1).🎬Video\n"
+printf "\\033[36m(2).🎧Audio\n"
+echo " "
+printf "\\033[001m\\033[37m"
+read med
+if [ $med -eq 1 ]
+then
+  #selection: vdo#
+  printf "\n\\033[41;33m░▒▓▇ select quality [resolutuion] ▇▓▒░\\033[30;47m"
+  printf "\\033[38;5;208m"
+  youtube-dl --list-formats $1 |grep mp4 |grep av > vdata
+  cat vdata | cut -d ',' -f 1,5 | cut -d "x" -f 2 |grep ',' > vmind
+  cat -n vdata
+  printf "\\033[37;5;126m::select number::"
+  printf "\n\\033[33m-> "
+  read qn
+  qc=$(cat vdata | cut -d ' ' -f 1 | cut -d$'\n' -f $qn)
+  youtube-dl -f $qc $1
+  echo '🎬🎥📹'
+else
+if [ $med -eq 2 ]
+then
+  #selection: odo#
+  printf "\\033[34m"
+  youtube-dl -x --audio-format mp3 $1
+  echo "🎵🎶🎧"
+else
+    #xxxxx-=error=-xxxxx#
+    printf "\\033[38;5;034merror: nothing selected\n"
+    echo '❎❌⚠️❌❎'
+fi
+fi
